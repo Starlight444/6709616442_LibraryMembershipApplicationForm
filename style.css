@@ -8,13 +8,12 @@ h2{
     font-family: "Sour Gummy", sans-serif;
     font-size: 33px;
     margin-top: 20px;
-    /*color: rgb(102, 102, 244);*/
     background: linear-gradient(to right,rgb(115, 239, 115), rgb(144, 144, 249),pink);
 }
 
 fieldset{
     border-radius: 10px;
-    border: 1px solid rgb(136, 178, 255);
+    border: 1px solid rgb(152, 70, 26);
     background-color: hsla(0, 60%, 99%, 0.497);
     width: 50%;
     margin: auto;
