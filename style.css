@@ -18,3 +18,7 @@ fieldset{
     width: 50%;
     margin: auto;
 }
+
+legend{
+    font-family: sans-serif;
+}
