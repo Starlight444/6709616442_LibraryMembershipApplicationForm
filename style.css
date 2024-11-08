@@ -22,3 +22,12 @@ fieldset{
 legend{
     font-family: sans-serif;
 }
+
+input{
+    background-color: white;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: 1px solid rgb(152, 70, 26);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
