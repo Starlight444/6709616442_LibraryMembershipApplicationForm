@@ -3,3 +3,11 @@ body{
 }
 
 
+h2{
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 33px;
+    margin-top: 20px;
+    /*color: rgb(102, 102, 244);*/
+    background: linear-gradient(to right,rgb(115, 239, 115), rgb(144, 144, 249),pink);
+}
