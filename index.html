@@ -9,10 +9,13 @@
     <form>
         <fieldset>
             <legend>Library Membership Application Form</legend>
-            <label for="engname">Name-Surname :</label><br>
+            <label for="email">E-mail address :</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="engname">Name-Surname :</label>
             <input type="text" id="engname" name="engname"><br><br>
 
-            <label for="thainame">ชื่อ-นามสกุล :</label><br>
+            <label for="thainame">ชื่อ-นามสกุล :</label>
             <input type="text" id="thainame" name="thainame"><br><br>
 
             <label for="gender">Gender :</label>
@@ -53,8 +56,49 @@
                 <option value="วิทยาลัยสหวิทยาการ">วิทยาลัยสหวิทยาการ</option>
                 <option value="วิทยาลัยนานาชาติ ปรีดี พนมยงค์">วิทยาลัยนานาชาติ ปรีดี พนมยงค์</option>
                 <option value="อื่นๆ">อื่นๆ</option>
-            </select>
-        </fieldset>
+            </select><br><br>
+
+            <label for="birth">Date of Birth :</label>
+            <input type="date" id="birth" name="dateOFbirth"><br>     
+        </fieldset><br><br>
+
+        <fieldset>
+            <h4>What kind of book do you like to read ?</h4>
+            <p><b>Non fiction</b></p>
+            <input type="checkbox" id="book1" name="typeOFbook" value="Biography">
+            <label for="book1"> Biography </label><br>
+            <input type="checkbox" id="book2" name="typeOFbook" value="Reference book">
+            <label for="book2"> Reference book </label><br>
+            <input type="checkbox" id="book3" name="typeOFbook" value="Textbook">
+            <label for="book3"> Textbook </label><br>
+            <input type="checkbox" id="book4" name="typeOFbook" value="Cookbook">
+            <label for="book4"> Cook book</label><br>
+            <input type="checkbox" id="book5" name="typeOFbook" value="Home and garden">
+            <label for="book5"> Home and garden</label><br>
+            <input type="checkbox" id="book6" name="typeOFbook" value="Business">
+            <label for="book6"> Business </label><br>
+            <input type="checkbox" id="book15" name="typeOFbook" value="Travel">
+            <label for="book15"> Travel </label><br>
+            
+            <p><b>Fiction</b></p>
+            <input type="checkbox" id="book7" name="typeOFbook" value="Novel">
+            <label for="book7"> Novel </label><br>
+            <input type="checkbox" id="book8" name="typeOFbook" value="Horror">
+            <label for="book8"> Horror story </label><br>
+            <input type="checkbox" id="book9" name="typeOFbook" value="Comic book">
+            <label for="book9"> Comic book </label><br>
+            <input type="checkbox" id="book10" name="typeOFbook" value="Historical">
+            <label for="book10"> Historical fiction </label><br>
+            <input type="checkbox" id="book11" name="typeOFbook" value="Fairytale">
+            <label for="book11"> Fairy Tale </label><br>
+            <input type="checkbox" id="book12" name="typeOFbook" value="Science">
+            <label for="book12"> Science fiction </label><br>
+            <input type="checkbox" id="book13" name="typeOFbook" value="Shortstory">
+            <label for="book13"> Short story </label><br>
+            <input type="checkbox" id="book14" name="typeOFbook" value="Thriller">
+            <label for="book14">  Thriller story </label><br>
+        </fieldset><br><br>
+
     </form>
 </body>
 </html>
