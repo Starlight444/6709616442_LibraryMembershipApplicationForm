@@ -31,3 +31,19 @@ input{
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+#email{
+    width: 100%;
+}
+#engname{
+    width: 100%;
+}
+#thainame{
+    width: 100%;
+}
+#studentID{
+    width: 100%;
+}
+#birth{
+    width: 100%;
+}
