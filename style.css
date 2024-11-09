@@ -15,7 +15,7 @@ fieldset{
     border-radius: 10px;
     border: 1px solid rgb(152, 70, 26);
     background-color: hsla(0, 60%, 99%, 0.497);
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -74,5 +74,5 @@ input[type="submit"]:hover{
 
 .submitcontainer{
     text-align: right;
-    padding-right: 19%;
+    padding-right: 14%;
 }
