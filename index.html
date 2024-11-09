@@ -12,26 +12,27 @@
         <h2>Library Membership Application Form</h2>
         <fieldset>
             <legend><h4>Personal Information</h4></legend>
-            <label for="email">E-mail address :</label><br>
-            <input type="email" id="email" name="email" placeholder="Email address"><br><br>
+            <label>* ระบุว่าเป็นคําถามที่จําเป็น</label><br><br>
+            <label for="email">E-mail address*</label><br>
+            <input type="email" id="email" name="email" placeholder="Email address" required><br><br>
             
-            <label for="engname">Name-Surname :</label><br>
-            <input type="text" id="engname" name="engname" placeholder="Name Surname"><br><br>
+            <label for="engname">Name-Surname*</label><br>
+            <input type="text" id="engname" name="engname" placeholder="Name Surname" required><br><br>
 
-            <label for="thainame">ชื่อ-นามสกุล :</label><br>
-            <input type="text" id="thainame" name="thainame" placeholder="ชื่อ นามสกุล"><br><br>
+            <label for="thainame">ชื่อ-นามสกุล*</label><br>
+            <input type="text" id="thainame" name="thainame" placeholder="ชื่อ นามสกุล" required><br><br>
 
-            <label for="gender">Gender :</label>
-            <input type="radio" id="female" name="gender" value="female">
+            <label for="gender">Gender* :</label>
+            <input type="radio" id="female" name="gender" value="female" required>
             <label for="female">Female</label>
-            <input type="radio" id="male" name="gender" value="male">
+            <input type="radio" id="male" name="gender" value="male" required>
             <label for="male">Male</label><br><br>
 
-            <label for="studentID">Student ID :</label><br>
-            <input type="number" id="studentID" name="studentID" placeholder="67xxxxxxxx"><br><br>
+            <label for="studentID">Student ID*</label><br>
+            <input type="number" id="studentID" name="studentID" placeholder="67xxxxxxxx" required><br><br>
             
-            <label for="faculty">Faculty :</label>
-            <select name="faculty">
+            <label for="faculty">Faculty* :</label>
+            <select name="faculty" required>
                 <option value="คณะนิติศาสตร์">คณะนิติศาสตร์</option>
                 <option value="คณะพาณิชยศาสตร์และการบัญชี">คณะพาณิชยศาสตร์และการบัญชี</option>
                 <option value="คณะรัฐศาสตร์">คณะรัฐศาสตร์</option>
@@ -61,8 +62,8 @@
                 <option value="อื่นๆ">อื่นๆ</option>
             </select><br><br>
 
-            <label for="birth">Date of Birth :</label><br>
-            <input type="date" id="birth" name="dateOFbirth"><br>     
+            <label for="birth">Date of Birth*</label><br>
+            <input type="date" id="birth" name="dateOFbirth" required><br>     
         </fieldset>
 
         <fieldset>
@@ -103,10 +104,10 @@
         </fieldset>
 
         <fieldset>
-            <legend><h4>Do you want to receive library information news by email ?</h4></legend>
-            <input type="radio" id="yes" name="receiveinfo" value="yes"> 
+            <legend><h4>Do you want to receive library information news by email ? *</h4></legend>
+            <input type="radio" id="yes" name="receiveinfo" value="yes" required> 
             <label for="yes">Yes</label><br>
-            <input type="radio" id="no" name="receiveinfo" value="no">
+            <input type="radio" id="no" name="receiveinfo" value="no" required>
             <label for="no">No</label>
         </fieldset><br>
 
