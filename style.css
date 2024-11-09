@@ -47,3 +47,11 @@ input{
 #birth{
     width: 100%;
 }
+
+p{
+    margin: 0 0;
+    font-size: smaller;
+    color: red;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
