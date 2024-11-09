@@ -71,3 +71,8 @@ input[type="submit"]:hover{
     background-color: #dff484;
     color: blue;
 }
+
+.submitcontainer{
+    text-align: right;
+    padding-right: 25%;
+}
