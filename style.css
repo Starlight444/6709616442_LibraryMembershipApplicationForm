@@ -15,7 +15,7 @@ fieldset{
     border-radius: 10px;
     border: 1px solid rgb(152, 70, 26);
     background-color: hsla(0, 60%, 99%, 0.497);
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
@@ -53,7 +53,7 @@ p{
     font-size: smaller;
     color: red;
     margin-bottom: -20px;
-    margin-top: -20px;
+    margin-top: 0px;
 }
 
 input[type="submit"]{
